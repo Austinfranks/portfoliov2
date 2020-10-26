@@ -135,8 +135,40 @@ section {
 }
 
 .portfolio {
-  height: 90vh;
+  height: auto;
+  display: flex;
 }
+
+.project {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex: 1 1;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  margin-bottom: 5vh;
+}
+
+.projectinfo {
+  margin-top: 10vh;
+}
+.projecttitle {
+  font-size: 16px;
+}
+
+.projectdes {
+  font-size: 16px;
+}
+
+.projectlink {
+  font-size: 16px;
+}
+
+video {
+  width: 60vw;
+}
+
 .contact {
   height: 90vh;
   display: flex;
